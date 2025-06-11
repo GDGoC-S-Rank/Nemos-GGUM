@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        <></>
+        <div></div>
       </ThemeProvider>
      
     </>
