@@ -1,6 +1,9 @@
 import { globalStyle } from '@vanilla-extract/css';
+import { style } from '@vanilla-extract/css';
 
-
+export const fontWrapper = style({
+  fontFamily: '"Paperlogy", sans-serif',
+});
 
 /* HTML & Body Styles */
 globalStyle('html, body', {
@@ -14,4 +17,7 @@ globalStyle('html, body', {
   background: '#0F101B',
   margin: '0',
   padding: '0',
+  width: '100%',
+  height: '100%',
+  overflow: 'hidden',
 });

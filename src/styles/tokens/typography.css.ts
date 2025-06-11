@@ -11,6 +11,9 @@ export const typography = {
      G2048_32: '3.2rem',
      G2048_24: '2.4rem',
    },
+   fontFaily: {
+    paperlogy: '"Paperlogy", sans-serif',
+   },
    fontWeight: {
     thin_1: '100',
     extraLight_2: '200',
